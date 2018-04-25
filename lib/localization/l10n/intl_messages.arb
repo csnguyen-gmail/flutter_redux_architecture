@@ -1,0 +1,15 @@
+{
+  "@@last_modified": "2018-04-05T16:00:58.207335",
+  "title": "Custumer Ledger System",
+  "@title": {
+    "description": "Title for the CLS application",
+    "type": "text",
+    "placeholders": {}
+  },
+  "cardTitle": "Cards",
+  "@cardTitle": {
+    "description": "Card list",
+    "type": "text",
+    "placeholders": {}
+  }
+}
