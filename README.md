@@ -8,7 +8,7 @@ In this writing, I don't intend to explain about [Flutter-Redux](https://pub.dar
 
 #### The Application
 
-Ok, let's make simple application for practice. The application is about download a Card list from Server, display it with a filter and able to add more Card data, simple enough but have some foundation for a real world application. 
+Ok, let's make simple application for practice. The application is about download a Card list from Server, display it with a filter and able to add more Card data, simple but have some foundation function enough for a real world application. 
 
 <p align="center">
   <img src="/blob/sample.gif">
