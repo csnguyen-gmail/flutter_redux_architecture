@@ -1,4 +1,4 @@
-##Simplify Redux with Flutter
+## Simplify using Redux with Flutter
 
 These days you may here about raising start of mobile cross platform [Flutter](https://flutter.io), me too so I decided to check  and quickly like it. But instead of have one strong recommend development pattern, you can write Flutter in many ways. There are a lot of wonderful writing about Flutter development pattern for you to choose, such as [Flutter architecture samples](https://github.com/brianegan/flutter_architecture_samples), [scoped_model](https://pub.dartlang.org/packages/scoped_model) and [Flutter MVP architecture](https://medium.com/@develodroid/flutter-iv-mvp-architecture-e4a979d9f47e). 
 
