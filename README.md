@@ -10,7 +10,11 @@ In this writing, I don't intend to explain about [Flutter-Redux](https://pub.dar
 
 Ok, let's make simple application for practice. The application is about download a Card list from Server, display it with a filter and able to add more Card data, simple enough but have some foundation for a real world application. 
 
-![Sample](blob/sample.gif)
+```
+<p align="center">
+  <img src="blob/sample.gif">
+</p>
+```
 
 Below is how my project evolve:
 
