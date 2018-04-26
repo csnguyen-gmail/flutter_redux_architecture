@@ -10,14 +10,10 @@ In this writing, I don't intend to explain about [Flutter-Redux](https://pub.dar
 
 Ok, let's make simple application for practice. The application is about download a Card list from Server, display it with a filter and able to add more Card data, simple enough but have some foundation for a real world application. 
 
-
 <p align="center">
   <img src="/blob/sample.gif">
 </p>
 
-<p align="center">
-  <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image"/>
-</p>
 Below is how my project evolve:
 
 #### Part1: Load and display the List
@@ -45,7 +41,9 @@ I'm newbie of Redux, I put all data into the Store just because I thought that�
 
 **Flow**
 
-![part1](blob/part1.svg)
+<p align="center">
+  <img src="/blob/part1.svg">
+</p>
 
 It's seem many setup but it's worth. The good point is now your Biz layer is completely separate out of UI layer, you can unit test the biz or even the UI state without building the UI. Cool !!! 🤗
 
@@ -115,7 +113,9 @@ I'm also establish the bridge between UI and Middleware by callback function to 
 
 **Flow**
 
-![part3](blob/part3.svg)
+<p align="center">
+  <img src="/blob/part3.svg">
+</p>
 
 How's about this, much more simple isn't it? 🤗
 
