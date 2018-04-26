@@ -9,7 +9,8 @@ In this writing, I don't intend to explain about [Flutter-Redux](https://pub.dar
 #### The Application
 
 Ok, let's make simple application for practice. The application is about download a Card list from Server, display it with a filter and able to add more Card data, simple enough but have some foundation for a real world application. 
-![Sample](/Users/csnguyen/Downloads/Sample smaller.gif)
+
+![Sample](blob/sample.gif)
 
 Below is how my project evolve:
 
@@ -37,41 +38,9 @@ I'm newbie of Redux, I put all data into the Store just because I thought that�
 * KeywordTypeFinish(keyword)
 
 **Flow**
-```mermaid
-sequenceDiagram
-participant U as UI
-participant M as Middleware
-participant S as Service
-participant R as Reducer
-participant A as AppState
-Note over U: Tap Refresh
-U->>M: dispatch(CardListRequest)
-M->>R: dispatch(CardListRequest)
-R->>A: IsLoading:true
-A-->>U: app state change
-U->>U: show Spinner
-M-xS:call API
-S--xM:result
-alt is Success
-	M->>R: dispatch(CardListSuccess(data))
-	R->>A: CardList:data, IsLoading:false
-	A-->>U: app state change
-	U->>U: hide Spinner, rebuild List
-else is Fail
-	M->>R: dispatch(CardListFail(message))
-    R->>A: ErrorMessage:message, IsLoading:false
-    A-->>U: app state change
-    U->>U: hide Spinner, show Dialog
-    Note over U: Dialog Done
-    U->>R: dispatch(ResetErrorMessage)
-	R->>A: ErrorMessage:""
-end
-Note over U: Type Keyword
-U->>R: dispatch(KeywordTypeFinish(keyword))
-R->>A: FilterKeyword:keyword,
-A-->>U: app state change
-U->>U: rebuild List with Keyword
-```
+
+![part1](blob/part1.svg)
+
 It's seem many setup but it's worth. The good point is now your Biz layer is completely separate out of UI layer, you can unit test the biz or even the UI state without building the UI. Cool !!! 🤗
 
 At this point I totally satisfy with my setup despite some strange in storing UI state in AppState like isLoading, errorMessage, filterKeyword or the unnecessary of resetErrorMessage action since my application is still small enough to handle.🤪
@@ -139,32 +108,9 @@ I'm also establish the bridge between UI and Middleware by callback function to 
 
 
 **Flow**
-```mermaid
-sequenceDiagram
-participant U as UI
-participant M as Middleware
-participant S as Service
-participant R as Reducer
-participant A as AppState
-Note over U: Tap Refresh
-U->>U: show Spinner
-U->>M: dispatch(CardListRequest(onFinish))
-M-xS:call API
-S--xM:result
-alt is Success
-	M->>R: dispatch(CardListSuccess(data))
-	R->>A: CardList:data
-	A-->>U: app state change
-	U->>U: rebuild List
-	M->>U: onFinish("")
-	U->>U: hide Spinner
-else is Fail
-	M->>U: onFinish(error)
-	U->>U: hide Spinner, show Dialog
-end
-Note over U: Type Keyword
-U->>U: rebuild List with Keyword
-```
+
+![part3](blob/part3.svg)
+
 How's about this, much more simple isn't it? 🤗
 
 > *Shared data is store in AppState and UI state store in UI component*

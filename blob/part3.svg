@@ -1,0 +1,350 @@
+<svg id="mermaid-1524730876351" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:1085px;" viewBox="-85 -10 1085 913.5625"><style>
+
+
+#mermaid-1524730876351 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  color: #333; }
+
+#mermaid-1524730876351 .node rect,
+#mermaid-1524730876351 .node circle,
+#mermaid-1524730876351 .node ellipse,
+#mermaid-1524730876351 .node polygon {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1524730876351 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1524730876351 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1524730876351 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1524730876351 .edgeLabel {
+  background-color: #e8e8e8; }
+
+#mermaid-1524730876351 .cluster rect {
+  fill: #ffffde !important;
+  stroke: #aaaa33 !important;
+  stroke-width: 1px !important; }
+
+#mermaid-1524730876351 .cluster text {
+  fill: #333; }
+
+#mermaid-1524730876351 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1524730876351 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1524730876351 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1524730876351 .actor-line {
+  stroke: grey; }
+
+#mermaid-1524730876351 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  marker-end: 'url(#arrowhead)';
+  stroke: #333; }
+
+#mermaid-1524730876351 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1524730876351 #arrowhead {
+  fill: #333; }
+
+#mermaid-1524730876351 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1524730876351 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1524730876351 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1524730876351 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1524730876351 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1524730876351 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  marker-end: 'url(#arrowhead)';
+  stroke: #CCCCFF; }
+
+#mermaid-1524730876351 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1524730876351 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px; }
+
+
+#mermaid-1524730876351 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1524730876351 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1524730876351 .section2 {
+  fill: #fff400; }
+
+#mermaid-1524730876351 .section1,
+#mermaid-1524730876351 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1524730876351 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1524730876351 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1524730876351 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1524730876351 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1524730876351 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px; }
+
+
+#mermaid-1524730876351 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+
+#mermaid-1524730876351 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1524730876351 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1524730876351 .task {
+  stroke-width: 2; }
+
+#mermaid-1524730876351 .taskText {
+  text-anchor: middle;
+  font-size: 11px; }
+
+#mermaid-1524730876351 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px; }
+
+#mermaid-1524730876351 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1524730876351 .taskText0,
+#mermaid-1524730876351 .taskText1,
+#mermaid-1524730876351 .taskText2,
+#mermaid-1524730876351 .taskText3 {
+  fill: white; }
+
+#mermaid-1524730876351 .task0,
+#mermaid-1524730876351 .task1,
+#mermaid-1524730876351 .task2,
+#mermaid-1524730876351 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1524730876351 .taskTextOutside0,
+#mermaid-1524730876351 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1524730876351 .taskTextOutside1,
+#mermaid-1524730876351 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1524730876351 .active0,
+#mermaid-1524730876351 .active1,
+#mermaid-1524730876351 .active2,
+#mermaid-1524730876351 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1524730876351 .activeText0,
+#mermaid-1524730876351 .activeText1,
+#mermaid-1524730876351 .activeText2,
+#mermaid-1524730876351 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1524730876351 .done0,
+#mermaid-1524730876351 .done1,
+#mermaid-1524730876351 .done2,
+#mermaid-1524730876351 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1524730876351 .doneText0,
+#mermaid-1524730876351 .doneText1,
+#mermaid-1524730876351 .doneText2,
+#mermaid-1524730876351 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1524730876351 .crit0,
+#mermaid-1524730876351 .crit1,
+#mermaid-1524730876351 .crit2,
+#mermaid-1524730876351 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1524730876351 .activeCrit0,
+#mermaid-1524730876351 .activeCrit1,
+#mermaid-1524730876351 .activeCrit2,
+#mermaid-1524730876351 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1524730876351 .doneCrit0,
+#mermaid-1524730876351 .doneCrit1,
+#mermaid-1524730876351 .doneCrit2,
+#mermaid-1524730876351 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1524730876351 .doneCritText0,
+#mermaid-1524730876351 .doneCritText1,
+#mermaid-1524730876351 .doneCritText2,
+#mermaid-1524730876351 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1524730876351 .activeCritText0,
+#mermaid-1524730876351 .activeCritText1,
+#mermaid-1524730876351 .activeCritText2,
+#mermaid-1524730876351 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1524730876351 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black; }
+
+#mermaid-1524730876351 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 10px; }
+
+#mermaid-1524730876351 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1524730876351 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1524730876351 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1524730876351 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1524730876351 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1524730876351 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1524730876351 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1524730876351 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1524730876351 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1524730876351 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1524730876351 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1524730876351 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1524730876351 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1524730876351 .commit-id,
+#mermaid-1524730876351 .commit-msg,
+#mermaid-1524730876351 .branch-label {
+  fill: lightgrey;
+  color: lightgrey; }
+</style><style>#mermaid-1524730876351 {
+    color: rgba(0, 0, 0, 0.65098);
+    font: normal normal normal normal 14px/21px "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }</style><g></g><g><line id="actor40" x1="75" y1="5" x2="75" y2="902.5625" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">UI</tspan></text></g><g><line id="actor41" x1="275" y1="5" x2="275" y2="902.5625" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Middleware</tspan></text></g><g><line id="actor42" x1="475" y1="5" x2="475" y2="902.5625" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="400" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="475" dy="0">Service</tspan></text></g><g><line id="actor43" x1="675" y1="5" x2="675" y2="902.5625" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="600" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="675" dy="0">Reducer</tspan></text></g><g><line id="actor44" x1="875" y1="5" x2="875" y2="902.5625" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="800" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="875" dy="0">AppState</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0px, 0px;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0px, 0px;"></path></marker></defs><g><rect x="0" y="75" fill="#EDF2AE" stroke="#666" width="150" height="36.28125" rx="0" ry="0" class="note"></rect><text x="-4" y="99" fill="black" class="noteText"><tspan x="16" fill="black">Tap Refresh</tspan></text></g><g><text x="75" y="139.28125" class="messageText" style="text-anchor: middle;">show Spinner</text><path d="M 75,146.28125 C 135,136.28125 135,176.28125 75,166.28125" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></path></g><g><text x="175" y="204.28125" class="messageText" style="text-anchor: middle;">dispatch(CardListRequest(onFinish))</text><line x1="75" y1="211.28125" x2="275" y2="211.28125" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="375" y="239.28125" class="messageText" style="text-anchor: middle;">call API</text><line x1="275" y1="246.28125" x2="475" y2="246.28125" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#crosshead)" style="fill: none;"></line></g><g><text x="375" y="274.28125" class="messageText" style="text-anchor: middle;">result</text><line x1="475" y1="281.28125" x2="275" y2="281.28125" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#crosshead)" style="stroke-dasharray: 3px, 3px; fill: none;"></line></g><g><text x="475" y="334.28125" class="messageText" style="text-anchor: middle;">dispatch(CardListSuccess(data))</text><line x1="275" y1="341.28125" x2="675" y2="341.28125" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="775" y="369.28125" class="messageText" style="text-anchor: middle;">CardList:data</text><line x1="675" y1="376.28125" x2="875" y2="376.28125" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="475" y="404.28125" class="messageText" style="text-anchor: middle;">app state change</text><line x1="875" y1="411.28125" x2="75" y2="411.28125" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3px, 3px; fill: none;"></line></g><g><text x="75" y="439.28125" class="messageText" style="text-anchor: middle;">rebuild List</text><path d="M 75,446.28125 C 135,436.28125 135,476.28125 75,466.28125" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></path></g><g><text x="175" y="504.28125" class="messageText" style="text-anchor: middle;">onFinish("")</text><line x1="275" y1="511.28125" x2="75" y2="511.28125" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="75" y="539.28125" class="messageText" style="text-anchor: middle;">hide Spinner</text><path d="M 75,546.28125 C 135,536.28125 135,576.28125 75,566.28125" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></path></g><g><text x="175" y="624.28125" class="messageText" style="text-anchor: middle;">onFinish(error)</text><line x1="275" y1="631.28125" x2="75" y2="631.28125" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="75" y="659.28125" class="messageText" style="text-anchor: middle;">hide Spinner, show Dialog</text><path d="M 75,666.28125 C 135,656.28125 135,696.28125 75,686.28125" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></path></g><g><line x1="-35" y1="291.28125" x2="885" y2="291.28125" class="loopLine"></line><line x1="885" y1="291.28125" x2="885" y2="706.28125" class="loopLine"></line><line x1="-35" y1="706.28125" x2="885" y2="706.28125" class="loopLine"></line><line x1="-35" y1="291.28125" x2="-35" y2="706.28125" class="loopLine"></line><line x1="-35" y1="586.28125" x2="885" y2="586.28125" class="loopLine" style="stroke-dasharray: 3px, 3px;"></line><polygon points="-35,291.28125 15,291.28125 15,304.28125 6.6,311.28125 -35,311.28125" class="labelBox"></polygon><text x="-27.5" y="306.28125" fill="black" class="labelText"><tspan x="-27.5" fill="black">alt</tspan></text><text x="425" y="306.28125" fill="black" class="loopText" style="text-anchor: middle;"><tspan x="425" fill="black">[ is Success ]</tspan></text><text x="425" y="601.28125" fill="black" class="loopText" style="text-anchor: middle;"><tspan x="425" fill="black">[ is Fail ]</tspan></text></g><g><rect x="0" y="716.28125" fill="#EDF2AE" stroke="#666" width="150" height="36.28125" rx="0" ry="0" class="note"></rect><text x="-4" y="740.28125" fill="black" class="noteText"><tspan x="16" fill="black">Type Keyword</tspan></text></g><g><text x="75" y="780.5625" class="messageText" style="text-anchor: middle;">rebuild List with Keyword</text><path d="M 75,787.5625 C 135,777.5625 135,817.5625 75,807.5625" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></path></g><g><rect x="0" y="837.5625" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="870.0625" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">UI</tspan></text></g><g><rect x="200" y="837.5625" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="870.0625" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Middleware</tspan></text></g><g><rect x="400" y="837.5625" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="870.0625" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="475" dy="0">Service</tspan></text></g><g><rect x="600" y="837.5625" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="870.0625" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="675" dy="0">Reducer</tspan></text></g><g><rect x="800" y="837.5625" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="870.0625" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="875" dy="0">AppState</tspan></text></g></svg>
