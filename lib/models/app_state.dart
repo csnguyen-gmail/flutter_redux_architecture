@@ -5,33 +5,26 @@ import 'package:meta/meta.dart';
 @immutable
 class AppState {
   final List<NameCard> cardList;
-  final Setting setting;
 
   AppState({
     this.cardList = const[],
-    this.setting = const Setting(),
   });
 
   AppState copyWith({
     List<NameCard> cards,
-    Setting setting,
   }) {
     return new AppState(
       cardList: cards ?? this.cardList,
-      setting: setting ?? this.setting,
     );
   }
 
   @override
-  int get hashCode =>
-      cardList.hashCode ^
-      setting.hashCode;
+  int get hashCode => cardList.hashCode;
 
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
           other is AppState &&
               runtimeType == other.runtimeType &&
-              cardList == other.cardList &&
-              setting == other.setting;
+              cardList == other.cardList;
 }

@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       setState(() {
                         isLoading = true;
                       });
-                      store.dispatch(SetupRequest(onFinishApi));
+                      store.dispatch(CardListRequest(onFinishApi));
                     }
                   },
                   icon: Icon(Icons.refresh),

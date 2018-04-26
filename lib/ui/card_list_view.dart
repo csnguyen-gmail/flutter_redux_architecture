@@ -4,6 +4,7 @@ import 'package:cls_mobile/models/models.dart';
 import 'package:cls_mobile/ui/card_search_textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:memoize/memoize.dart';
 import 'package:meta/meta.dart';
 import 'package:redux/redux.dart';
 
@@ -14,6 +15,7 @@ class CardListView extends StatefulWidget {
 }
 
 class _CardListViewState extends State<CardListView> {
+  Function searchCardByKeywordCache = imemo2(searchCardByKeyword);
   String keywordSearch = "";
 
   @override
@@ -33,7 +35,7 @@ class _CardListViewState extends State<CardListView> {
   }
 
   Widget buildListView(BuildContext context, _ViewModel vm) {
-    List<NameCard> displayCardList = keywordSearchCardsSelector(vm.cards, keywordSearch);
+    List<NameCard> displayCardList = searchCardByKeywordCache(vm.cards, keywordSearch);
     return ListView.builder(
       padding: EdgeInsets.all(15.0),
       itemCount: displayCardList.length,

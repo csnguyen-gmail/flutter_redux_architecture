@@ -4,14 +4,13 @@ import 'package:cls_mobile/models/models.dart';
 
 typedef OnFinishAPI = void Function(String error);
 
-class SetupRequest {
+class CardListRequest {
   final OnFinishAPI onFinishAPI;
-  SetupRequest(this.onFinishAPI);
+  CardListRequest(this.onFinishAPI);
 }
-class SetupSuccess {
+class CardListSuccess {
   final List<NameCard> cards;
-  final Setting setting;
-  SetupSuccess(this.cards, this.setting);
+  CardListSuccess(this.cards);
 }
 
 class AddCardRequest {

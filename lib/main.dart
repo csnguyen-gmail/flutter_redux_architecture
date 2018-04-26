@@ -3,7 +3,6 @@ import 'package:cls_mobile/business/middleware.dart';
 import 'package:cls_mobile/business/reducers.dart';
 import 'package:cls_mobile/localization/localization.dart';
 import 'package:cls_mobile/models/models.dart';
-import 'package:cls_mobile/services/file_storage.dart';
 import 'package:cls_mobile/services/mock_web_service.dart';
 import 'package:cls_mobile/themes/theme.dart';
 import 'package:cls_mobile/ui/home_screen.dart';
@@ -20,7 +19,7 @@ class ClsApp extends StatelessWidget {
   final store = new Store<AppState>(
     appReducer,
     initialState: new AppState(),
-    middleware: createMiddleware(new FileStorage(), new MockWebService()),
+    middleware: createMiddleware(new MockWebService()),
   );
 
   @override
