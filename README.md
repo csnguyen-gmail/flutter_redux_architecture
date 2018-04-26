@@ -1,8 +1,8 @@
 ## Simplify using Redux with Flutter
 
-These days you may here about raising star of mobile cross platform [Flutter](https://flutter.io), I'm also and decided to check, quickly I become a fan of Flutter. 
+These days you may here about raising star of mobile cross platform [Flutter](https://flutter.io), I’m also. So I decided to check, and quickly become a fan of Flutter.
 
-But instead of have one strong recommend development pattern, you can write Flutter in many ways which make you confuse. There are a lot of wonderful writing about Flutter development pattern for you to choose, such as [Flutter architecture samples](https://github.com/brianegan/flutter_architecture_samples), [scoped_model](https://pub.dartlang.org/packages/scoped_model) and [Flutter MVP architecture](https://medium.com/@develodroid/flutter-iv-mvp-architecture-e4a979d9f47e). Among of these pattern, I decided to try [Redux](https://pub.dartlang.org/packages/redux) pattern which I heard a lot about it but have no change to practice. 
+But instead of have one strong recommend development pattern, you can write Flutter in many ways which may let you confuse. There are a lot of wonderful writing about Flutter development pattern for you to choose, such as [Flutter architecture samples](https://github.com/brianegan/flutter_architecture_samples), [scoped_model](https://pub.dartlang.org/packages/scoped_model) and [Flutter MVP architecture](https://medium.com/@develodroid/flutter-iv-mvp-architecture-e4a979d9f47e). Among of these pattern, I decided to try [Redux](https://pub.dartlang.org/packages/redux) pattern which I heard a lot about it but have no change to practice. 
 
 In this writing, I don't intend to explain about [Flutter-Redux](https://pub.dartlang.org/packages/flutter_redux) and I assume you already read and familiar with it, instead I want to share my trouble and solution when I try to practice with Flutter-Redux.
 
