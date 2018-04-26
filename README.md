@@ -27,10 +27,10 @@ The requirement is:
 I'm newbie of Redux, I put all data into the Store just because I thought that’s how it was supposed to work. Here is Redux setup:
 
 **AppState**
-* ListData
-* IsLoading
-* ErrorMessage
-* FilterKeyword
+* listData
+* isLoading
+* errorMessage
+* filterKeyword
 
 **Action**
 * CardListRequest
@@ -45,7 +45,7 @@ I'm newbie of Redux, I put all data into the Store just because I thought that�
   <img src="/blob/part1.svg">
 </p>
 
-It's seem many setup but it's worth. The good point is now your Biz layer is completely separate out of UI layer, you can unit test the biz or even the UI state without building the UI. Cool !!! 🤗
+It's seem many setup but it's worth. The good point is now your Biz layer is completely separate out of UI layer, you can unit test the biz logic or even the UI state without building the UI. Cool !!! 🤗
 
 At this point I totally satisfy with my setup despite some strange in storing UI state in AppState like isLoading, errorMessage, filterKeyword or the unnecessary of resetErrorMessage action since my application is still small enough to handle.🤪
 
@@ -57,7 +57,7 @@ The requirement is:
 
 * Tap to add button to start post new Card through API, show indicator, show dialog in case error or update list in case success, stop indicator.
 
-In order not to mess thing up, I decided add 2 more state to IsLoading and ErrorMessage for deal with AddCard action. Here is Redux setup:
+In order not to mess things up, I decided add 2 more state IsLoading and ErrorMessage for deal with AddCard action. Here is Redux setup:
 
 **AppState**
 
