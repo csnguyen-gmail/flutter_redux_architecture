@@ -10,12 +10,14 @@ In this writing, I don't intend to explain about [Flutter-Redux](https://pub.dar
 
 Ok, let's make simple application for practice. The application is about download a Card list from Server, display it with a filter and able to add more Card data, simple enough but have some foundation for a real world application. 
 
-```
-<p align="center">
-  <img src="blob/sample.gif">
-</p>
-```
 
+<p align="center">
+  <img src="/blob/sample.gif">
+</p>
+
+<p align="center">
+  <img src="https://github.com/waldyr/Sublime-Installer/blob/master/sublime_text.png?raw=true" alt="Sublime's custom image"/>
+</p>
 Below is how my project evolve:
 
 #### Part1: Load and display the List
