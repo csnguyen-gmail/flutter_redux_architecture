@@ -119,7 +119,7 @@ I'm also establish the bridge between UI and Middleware by callback function to 
 
 How's about this, much more simple isn't it? 🤗
 
-> *Shared data is store in AppState and UI state store in UI component*
+> *Shared state is stored in AppState and UI state is stored in UI component*
 
 I don't know whether this is best practice or not but it work on me and I actually applied to a real world project, you can refer to [source code](https://github.com/csnguyen-gmail/flutter_redux_architecture) for reference to start a Flutter-Redux project.
 
